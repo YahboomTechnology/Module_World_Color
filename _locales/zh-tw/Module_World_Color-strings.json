@@ -1,1 +1,10 @@
+{
 
+	"Module_World_Color|block": "顏色感測器",
+	"{id:category}Module_World_Color": "顏色感測器",
+    "Module_World_Color.GetRGBValue|block": "顏色感測器|返回 %value",
+    "Module_World_Color.enGetRGB.GetValueR|block": "R值",
+    "Module_World_Color.enGetRGB.GetValueG|block": "G值",
+    "Module_World_Color.enGetRGB.GetValueB|block": "B值"
+
+}
