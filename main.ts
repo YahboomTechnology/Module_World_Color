@@ -4,7 +4,7 @@ modified from chengengyue
 */
 
 
-//% color="#228B22" weight=25 icon="\uf002"
+//% color="#0000cd" weight=25 icon="\uf002"
 namespace Module_World_Color {
 
     const COLOR_ADD = 0X53;
@@ -100,7 +100,7 @@ namespace Module_World_Color {
     //% blockId=ModuleWorld_Sensor_GetRGBValue block="GetRGBValue|value %value"
     //% blockGap=20
     //% weight=98
-    //% color="#228B22"
+    //% color="#0000cd"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=5
     export function GetRGBValue(value: enGetRGB): number {
         if (!initialized) {
