@@ -1,1 +1,7 @@
+{
 
+	"Module_World_Color|block": "颜色传感器",
+	"{id:category}Module_World_Color": "颜色传感器",
+    "Module_World_Color.GetRGBValue|block": "颜色传感器|返回 %value"
+
+}
