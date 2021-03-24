@@ -4,7 +4,7 @@ modified from chengengyue
 */
 
 
-//% color="#0000cd" weight=25 icon="\uf002"
+//% color="#0000cd" weight=20 icon="\uf002"
 namespace Module_World_Color {
 
     const COLOR_ADD = 0X53;
