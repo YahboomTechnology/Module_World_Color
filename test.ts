@@ -1,4 +1,1 @@
-basic.forever(function () {
-	led.enable(false)
-    basic.showNumber(Module_World_US.Ultrasonic(DigitalPin.P12, DigitalPin.P7))
-})
+// tests go here; this will not be compiled when this package is used as a library

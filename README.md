@@ -1,6 +1,6 @@
-# YB_Module-World
+# Module_World_Color
 
-Extension for Yahboom YB_Module-World V1.0
+Extension for Yahboom
 
 ## License
 
