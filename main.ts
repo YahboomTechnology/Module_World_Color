@@ -71,6 +71,11 @@ namespace Module_World_Color {
         val_green = Math.map(Green, 0, 4600, 0, 255);
         val_blue = Math.map(Blue, 0, 2700, 0, 255);
 
+        //化成整数
+        val_red = Math.floor(val_red)
+        val_green = Math.floor(val_green)
+        val_blue = Math.floor(val_blue)
+
         if (val_red > 255) val_red = 255;
         if (val_green > 255) val_green = 255;
         if (val_blue > 255) val_blue = 255;
@@ -79,11 +84,14 @@ namespace Module_World_Color {
             val_red = 255;
             val_green = 255;
             val_blue == 255;
-        }
+        }//3值相等，当成白色处理
         else if (val_red > val_green && val_red > val_blue) {
-            val_red = 255;
-            val_green /= 2;
-            val_blue /= 2;
+            if(val_red > 55) //当R值大于此值，说明检测红色
+            {
+                val_red = 255;
+                val_green /= 2;
+                val_blue /= 2;
+            }//否则值不处理
         }
         else if (val_green > val_red && val_green > val_blue) {
             val_green = 255;
